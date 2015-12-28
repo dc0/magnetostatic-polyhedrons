@@ -1,30 +1,34 @@
-## Synopsis
+## Introduction
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+This repository contains the supplementary information for the paper "Computation of the magnetostatic interaction between linearly magnetized polyhedrons" by D.Chernyshenko and 
+H. Fangohr [[1]](#ref1), currently being prepared for publication.
 
-## Code Example
+The latest version of this repository is available on GitHub [[2]](#ref2)</a>.
 
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
 
-## Motivation
+## Source code for the surface integral derivation
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
 
-## Installation
+## Numerical integration weights
 
-Provide code examples and explanations of how to get the project.
+The integration point coordinates _(x<sub>i</sub>, y<sub>i</sub>, z<sub>i</sub>)_ are barycentric, i.e. _x<sub>i</sub> + y<sub>i</sub> + z<sub>i</sub> = 1_.
 
-## API Reference
+For an arbitrary triangle _T = (r<sub>1</sub>, r<sub>2</sub>,r<sub>3</sub>)_, the numerical integration formula over T is defined by 
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+_&int;<sub>T</sub> f(r) dr_ &approx; det(T) &middot; _&sum;<sub>i</sub>  w<sub>i</sub> f(x<sub>i</sub> r<sub>1</sub> + y<sub>i</sub> r<sub>2</sub> + z<sub>i</sub> r<sub>3</sub>)_
 
-## Tests
+where 
 
-Describe and show how to run the tests with code examples.
+det(T) = |(r<sub>2</sub> - r<sub>1</sub>) &times; (r<sub>3</sub> - r<sub>1</sub>)|
 
-## Contributors
+## Reference matrix _E<sub>ref</sub>_
 
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
+
+## References
+
+<a name="ref1">1.</a> "Computation of the magnetostatic interaction between linearly magnetized polyhedrons", D.Chernyshenko and H. Fangohr
+
+<a name="ref1">2.</a> [https://github.com/dc0/magnetostatic-polyhedrons](https://github.com/dc0/magnetostatic-polyhedrons)
 
 ## License
 
