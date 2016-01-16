@@ -28,6 +28,10 @@ det(T) = |(r<sub>2</sub> - r<sub>1</sub>) &times; (r<sub>3</sub> - r<sub>1</sub>
 
 The 12x12 reference test matrix obtained via finite difference simulation is in `Eref-test-data/E_best.txt` - the construction of this matrix is described in the paper.
 
+## Acknowledgements
+
+This work was supported by an EPSRC Doctoral Training Centre grant (EP/G03690X/1).
+
 ## References
 
 <a name="arxiv-link">1</a>. "Computation of the magnetostatic interaction between linearly magnetized polyhedrons", D.Chernyshenko and H. Fangohr
