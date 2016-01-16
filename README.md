@@ -1,15 +1,18 @@
 ## Introduction
 
 This repository contains the supplementary information for the paper "Computation of the magnetostatic interaction between linearly magnetized polyhedrons" by D.Chernyshenko and 
-H. Fangohr [[1]](#ref1), currently being prepared for publication.
+H. Fangohr [[1]](#arxiv-link), currently being prepared for publication.
 
-The latest version of this repository is available on GitHub [[2]](#ref2)</a>.
+The latest version of this repository is available on GitHub [[2]](#github-link)</a>.
 
 
 ## Source code for the surface integral derivation
 
+The primary source file is `surface-int-derivation/MagnetostaticTetTetInteractions.nb`. The derivation proceeds by repeatedly applying sets of transformation rules to transform the volume integrand to the surface integrand. The source code for the transformation rules and functions are in `surface-int-derivation/PotentialIntegration.nb`.
 
 ## Numerical integration weights
+
+The weights for the numerical integration formulas are in `numint-weights/`. 
 
 The integration point coordinates _(x<sub>i</sub>, y<sub>i</sub>, z<sub>i</sub>)_ are barycentric, i.e. _x<sub>i</sub> + y<sub>i</sub> + z<sub>i</sub> = 1_.
 
@@ -23,14 +26,10 @@ det(T) = |(r<sub>2</sub> - r<sub>1</sub>) &times; (r<sub>3</sub> - r<sub>1</sub>
 
 ## Reference matrix _E<sub>ref</sub>_
 
+The 12x12 reference test matrix obtained via finite difference simulation is in `Eref-test-data/E_best.txt` - the construction of this matrix is described in the paper.
 
 ## References
 
-<a name="ref1">1.</a> "Computation of the magnetostatic interaction between linearly magnetized polyhedrons", D.Chernyshenko and H. Fangohr
+<a name="arxiv-link">1</a>. "Computation of the magnetostatic interaction between linearly magnetized polyhedrons", D.Chernyshenko and H. Fangohr
 
-<a name="ref1">2.</a> [https://github.com/dc0/magnetostatic-polyhedrons](https://github.com/dc0/magnetostatic-polyhedrons)
-
-## License
-
-A short snippet describing the license (MIT, Apache, etc.)
-
+<a name="github-link">2</a>. [https://github.com/dc0/magnetostatic-polyhedrons](https://github.com/dc0/magnetostatic-polyhedrons)
