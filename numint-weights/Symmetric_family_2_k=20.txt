@@ -1,4 +1,4 @@
-# Integration weights for the "Symmetric family 2, k=20" formula over the reference triangle [(0, 0), (1, 0), (0, 1)].
+# Integration weights for the "Symmetric family 2, k=20" formula (Table 2) over the reference triangle [(0, 0), (1, 0), (0, 1)].
 # The integration point coordinates (x_i, y_i, z_i) are barycentric i.e. x_i + y_i + z_i = 1.
 # For the reference triangle, \int f(r) dr is approximated by \sum_i w_i f((y_i, z_i))
 # 

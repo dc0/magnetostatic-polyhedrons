@@ -26,7 +26,7 @@ det(T) = |(r<sub>2</sub> - r<sub>1</sub>) &times; (r<sub>3</sub> - r<sub>1</sub>
 
 ## Reference matrix _E<sub>ref</sub>_
 
-The 12x12 reference test matrix obtained via finite difference simulation is in `Eref-test-data/E_best.txt` - the construction of this matrix is described in the paper.
+The 12x12 reference test matrix obtained via finite difference simulation is in `Eref-test-data/E_ref.txt` - the construction of this matrix is described in the paper.
 
 ## Acknowledgements
 
