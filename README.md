@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.46597.svg)](http://dx.doi.org/10.5281/zenodo.46597)
+
 ## Introduction
 
 This repository contains the supplementary information for the paper 
@@ -6,12 +8,12 @@ Dmitri Chernyshenko, and Hans Fangohr <br>
 *Computation of the magnetostatic interaction between linearly magnetized polyhedrons*<br>
 Journal of Magnetism and Magnetic Materials **412**, 132-137 (2016)<br>
 
-Available online 
+The paper is available online 
 
 - Journal's URL: http://dx.doi.org/10.1016/j.jmmm.2016.03.083
 - On the arXiv: http://arxiv.org/abs/1601.04185 
 
-The latest version of this repository is available on GitHub [[1]](#github-link)</a>.
+This software repository is available on GitHub [[1]](#github-link)</a> and has the DOI [10.5281/zenodo.46597](http://dx.doi.org/10.5281/zenodo.46597).
 
 ## Source code for the surface integral derivation
 
