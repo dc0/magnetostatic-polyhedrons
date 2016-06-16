@@ -1,10 +1,17 @@
 ## Introduction
 
-This repository contains the supplementary information for the paper "Computation of the magnetostatic interaction between linearly magnetized polyhedrons" by D.Chernyshenko and 
-H. Fangohr [[1]](#arxiv-link), currently being prepared for publication.
+This repository contains the supplementary information for the paper 
 
-The latest version of this repository is available on GitHub [[2]](#github-link)</a>.
+Dmitri Chernyshenko, and Hans Fangohr <br>
+*Computation of the magnetostatic interaction between linearly magnetized polyhedrons*<br>
+Journal of Magnetism and Magnetic Materials **412**, 132-137 (2016)<br>
 
+Available online 
+
+- Journal's URL: http://dx.doi.org/10.1016/j.jmmm.2016.03.083
+- On the arXiv: http://arxiv.org/abs/1601.04185 
+
+The latest version of this repository is available on GitHub [[1]](#github-link)</a>.
 
 ## Source code for the surface integral derivation
 
@@ -32,8 +39,7 @@ The 12x12 reference test matrix obtained via finite difference simulation is in 
 
 This work was supported by an EPSRC Doctoral Training Centre grant (EP/G03690X/1).
 
+
 ## References
 
-<a name="arxiv-link">1</a>. "Computation of the magnetostatic interaction between linearly magnetized polyhedrons", D.Chernyshenko and H. Fangohr
-
-<a name="github-link">2</a>. [https://github.com/dc0/magnetostatic-polyhedrons](https://github.com/dc0/magnetostatic-polyhedrons)
+<a name="github-link">1</a>. [https://github.com/dc0/magnetostatic-polyhedrons](https://github.com/dc0/magnetostatic-polyhedrons)
